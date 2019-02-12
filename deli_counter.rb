@@ -5,9 +5,11 @@ def line(deli)
   else 
     puts "The line is currently:"
     counter = 1
+    deli_line = []
     deli.each do |person|
-      puts "#{counter}. #{person}"
+      deli_line << "#{counter}. #{person}"
       counter += 1
     end
+    return deli_line
   end
 end
