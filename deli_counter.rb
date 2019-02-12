@@ -4,8 +4,10 @@ def line(deli)
     puts "The line is currently empty."
   else 
     puts "The line is currently:"
+    counter = 1
     deli.each do |person|
-      puts "1. #{person}"
+      puts "#{counter}. #{person}"
+      counter += 1
     end
   end
 end
