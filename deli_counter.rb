@@ -1,14 +1,15 @@
 # Write your code here.
 def line(deli)
-  counter = 1
-  if deli.empty?
+  if deli.length == 0
     puts "The line is currently empty."
-  else
-    current_line = "The line is currently:"
+  else 
+    puts "The line is currently:"
+    counter = 1
+    deli_line = []
     deli.each do |person|
-      current_line << " #{counter}. #{person}"
+      deli_line << "#{counter}. #{person}"
       counter += 1
     end
-    puts current_line
+    puts deli_line
   end
 end
