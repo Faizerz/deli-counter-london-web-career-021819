@@ -1,4 +1,4 @@
 # Write your code here.
-def line(deli) do
+def line
   
 end
