@@ -13,3 +13,6 @@ def line(deli)
   end
 end
 
+def take_a_number (deli, name)
+  puts "#{name} is #{deli.length} position in line"
+end
