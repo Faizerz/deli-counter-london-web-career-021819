@@ -1,3 +1,4 @@
 # Write your code here.
-def line(array) do
+def line(deli) do
   p
+end
