@@ -14,5 +14,5 @@ def line(deli)
 end
 
 def take_a_number (deli, name)
-  puts "#{name} is #{deli.length} position in line"
+  puts "#{name} is #{deli.length+1} position in line"
 end
